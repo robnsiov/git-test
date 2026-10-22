@@ -1,0 +1,9 @@
+{
+  "name": "api-nixpacks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Building api-nixpacks...'",
+    "start": "node index.js"
+  }
+}
