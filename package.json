@@ -1,5 +1,13 @@
 {
-  "name": "monorepo-test",
-  "private": true,
-  "workspaces": ["packages/*", "apps/*"]
+  "name": "express-docker",
+  "version": "1.0.0",
+  "description": "Express server with Docker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
